@@ -26,3 +26,6 @@ vim.opt.signcolumn = "yes"
 vim.opt.updatetime = 50
 
 vim.opt.termguicolors = true
+
+vim.opt.fillchars:append({ eob = " " })
+

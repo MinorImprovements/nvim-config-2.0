@@ -1,8 +1,7 @@
---project view
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+--nvim-tree project view 
+vim.keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>", { noremap = true, silent = true, desc = "Toggle NvimTree" })
 
 -- telescope keymaps
-
 local builtin = require "telescope.builtin"
 vim.keymap.set("n", "<leader>pf", builtin.find_files, {})
 vim.keymap.set("n", "<C-g>", builtin.git_files, {})
