@@ -1,7 +1,5 @@
-local M = {
+return {
    "ThePrimeagen/harpoon",
    lazy = true,
    dependencies = "nvim-lua/plenary.nvim",
 }
-
-return M
