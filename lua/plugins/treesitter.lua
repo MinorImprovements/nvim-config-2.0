@@ -1,6 +1,6 @@
 return {
    "nvim-treesitter/nvim-treesitter",
-   build = "TSUpdate",
+   build = ":TSUpdate",
    lazy = false, -- We want to see the highlighting since the start, so false
    config = function()
       require "nvim-treesitter".setup {
