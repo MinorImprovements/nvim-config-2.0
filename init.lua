@@ -11,5 +11,6 @@ spec("plugins.telescope")
 spec("plugins.fugitive")
 spec("plugins.harpoon")
 spec("plugins.mason")
+spec("plugins.nvim-cmp")
 require "plugins.lazy"
 require "keymaps"

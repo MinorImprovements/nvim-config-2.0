@@ -19,7 +19,6 @@ function M.config()
    })
 
    for _, server in ipairs(M.servers) do
-      vim.lsp.config(server, {})
       vim.lsp.enable(server)
    end
 
